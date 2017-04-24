@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEEC4F437A207A9F0BE0677 /* libPods-SNSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1817CB758CAF3E77F3FAAF2 /* libPods-SNSTest.a */; };
+		BA008D681E65041900142BE3 /* libNaverLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA008D631E65041900142BE3 /* libNaverLogin.a */; };
+		BA008D691E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA008D671E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */; };
+		BA008D6C1E65042200142BE3 /* NaverAuth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA008D6B1E65042200142BE3 /* NaverAuth.bundle */; };
+		BA008D721E65749700142BE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA008D711E65749700142BE3 /* GoogleService-Info.plist */; };
+		BA0557801E5A85CC00A17DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05577F1E5A85CC00A17DC0 /* main.m */; };
+		BA0557831E5A85CC00A17DC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0557821E5A85CC00A17DC0 /* AppDelegate.m */; };
+		BA0557861E5A85CC00A17DC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0557851E5A85CC00A17DC0 /* ViewController.m */; };
+		BA0557891E5A85CC00A17DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0557871E5A85CC00A17DC0 /* Main.storyboard */; };
+		BA05578B1E5A85CC00A17DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05578A1E5A85CC00A17DC0 /* Assets.xcassets */; };
+		BA05578E1E5A85CC00A17DC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05578C1E5A85CC00A17DC0 /* LaunchScreen.storyboard */; };
+		BA0557991E5A85CD00A17DC0 /* SNSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0557981E5A85CD00A17DC0 /* SNSTestTests.m */; };
+		BA0557A41E5A85CD00A17DC0 /* SNSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0557A31E5A85CD00A17DC0 /* SNSTestUITests.m */; };
+		BA2266A91E65A6CC00A04E16 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0557B21E5A874200A17DC0 /* KakaoOpenSDK.framework */; };
+		BA788F9B1E5EDC3200277B98 /* KakaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA788F991E5EDC3200277B98 /* KakaoViewController.m */; };
+		BA788F9C1E5EDC3200277B98 /* KakaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA788F9A1E5EDC3200277B98 /* KakaoViewController.xib */; };
+		BAA7D0DF1E640B8600C3B380 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D0DE1E640B8600C3B380 /* Bolts.framework */; };
+		BAA7D0E11E640B8F00C3B380 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D0E01E640B8F00C3B380 /* FBSDKCoreKit.framework */; };
+		BAA7D0E31E640B9500C3B380 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D0E21E640B9500C3B380 /* FBSDKLoginKit.framework */; };
+		BAA7D0E51E640B9B00C3B380 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA7D0E41E640B9B00C3B380 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0557951E5A85CD00A17DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0557731E5A85CC00A17DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA05577A1E5A85CC00A17DC0;
+			remoteInfo = SNSTest;
+		};
+		BA0557A01E5A85CD00A17DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0557731E5A85CC00A17DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA05577A1E5A85CC00A17DC0;
+			remoteInfo = SNSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EFC5307ADF10AF778A1D68D /* Pods-SNSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSTest/Pods-SNSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BA008D631E65041900142BE3 /* libNaverLogin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNaverLogin.a; sourceTree = "<group>"; };
+		BA008D641E65041900142BE3 /* NaverThirdPartyConstantsForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyConstantsForApp.h; sourceTree = "<group>"; };
+		BA008D651E65041900142BE3 /* NaverThirdPartyLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaverThirdPartyLoginConnection.h; sourceTree = "<group>"; };
+		BA008D661E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLoginThirdPartyOAuth20InAppBrowserViewController.h; sourceTree = "<group>"; };
+		BA008D671E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLoginThirdPartyOAuth20InAppBrowserViewController.m; sourceTree = "<group>"; };
+		BA008D6B1E65042200142BE3 /* NaverAuth.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NaverAuth.bundle; sourceTree = "<group>"; };
+		BA008D711E65749700142BE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA05577B1E5A85CC00A17DC0 /* SNSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA05577F1E5A85CC00A17DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA0557811E5A85CC00A17DC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA0557821E5A85CC00A17DC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA0557841E5A85CC00A17DC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA0557851E5A85CC00A17DC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA0557881E5A85CC00A17DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA05578A1E5A85CC00A17DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA05578D1E5A85CC00A17DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA05578F1E5A85CC00A17DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0557941E5A85CD00A17DC0 /* SNSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0557981E5A85CD00A17DC0 /* SNSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNSTestTests.m; sourceTree = "<group>"; };
+		BA05579A1E5A85CD00A17DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05579F1E5A85CD00A17DC0 /* SNSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0557A31E5A85CD00A17DC0 /* SNSTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNSTestUITests.m; sourceTree = "<group>"; };
+		BA0557A51E5A85CD00A17DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0557B21E5A874200A17DC0 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		BA788F981E5EDC3200277B98 /* KakaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KakaoViewController.h; sourceTree = "<group>"; };
+		BA788F991E5EDC3200277B98 /* KakaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KakaoViewController.m; sourceTree = "<group>"; };
+		BA788F9A1E5EDC3200277B98 /* KakaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KakaoViewController.xib; sourceTree = "<group>"; };
+		BAA7D0DE1E640B8600C3B380 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../FacebookSDKs-iOS-4.19.0/Bolts.framework"; sourceTree = "<group>"; };
+		BAA7D0E01E640B8F00C3B380 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.19.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		BAA7D0E21E640B9500C3B380 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.19.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		BAA7D0E41E640B9B00C3B380 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../FacebookSDKs-iOS-4.19.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		E0ECB11A120833335930CB71 /* Pods-SNSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSTest/Pods-SNSTest.release.xcconfig"; sourceTree = "<group>"; };
+		F1817CB758CAF3E77F3FAAF2 /* libPods-SNSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0557781E5A85CC00A17DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7D0E11E640B8F00C3B380 /* FBSDKCoreKit.framework in Frameworks */,
+				BAA7D0E51E640B9B00C3B380 /* FBSDKShareKit.framework in Frameworks */,
+				BA2266A91E65A6CC00A04E16 /* KakaoOpenSDK.framework in Frameworks */,
+				BAA7D0E31E640B9500C3B380 /* FBSDKLoginKit.framework in Frameworks */,
+				BA008D681E65041900142BE3 /* libNaverLogin.a in Frameworks */,
+				BAA7D0DF1E640B8600C3B380 /* Bolts.framework in Frameworks */,
+				0EEEC4F437A207A9F0BE0677 /* libPods-SNSTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0557911E5A85CD00A17DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05579C1E5A85CD00A17DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693689476684B86A950C7417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EFC5307ADF10AF778A1D68D /* Pods-SNSTest.debug.xcconfig */,
+				E0ECB11A120833335930CB71 /* Pods-SNSTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA008D621E65041900142BE3 /* NaverThirdPartyModule */ = {
+			isa = PBXGroup;
+			children = (
+				BA008D631E65041900142BE3 /* libNaverLogin.a */,
+				BA008D641E65041900142BE3 /* NaverThirdPartyConstantsForApp.h */,
+				BA008D651E65041900142BE3 /* NaverThirdPartyLoginConnection.h */,
+				BA008D661E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.h */,
+				BA008D671E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m */,
+			);
+			path = NaverThirdPartyModule;
+			sourceTree = "<group>";
+		};
+		BA008D6A1E65042200142BE3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA008D6B1E65042200142BE3 /* NaverAuth.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BA0557721E5A85CC00A17DC0 = {
+			isa = PBXGroup;
+			children = (
+				BA008D621E65041900142BE3 /* NaverThirdPartyModule */,
+				BA05577D1E5A85CC00A17DC0 /* SNSTest */,
+				BA0557971E5A85CD00A17DC0 /* SNSTestTests */,
+				BA0557A21E5A85CD00A17DC0 /* SNSTestUITests */,
+				BA0557B11E5A870B00A17DC0 /* Frameworks */,
+				BA05577C1E5A85CC00A17DC0 /* Products */,
+				693689476684B86A950C7417 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BA05577C1E5A85CC00A17DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA05577B1E5A85CC00A17DC0 /* SNSTest.app */,
+				BA0557941E5A85CD00A17DC0 /* SNSTestTests.xctest */,
+				BA05579F1E5A85CD00A17DC0 /* SNSTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA05577D1E5A85CC00A17DC0 /* SNSTest */ = {
+			isa = PBXGroup;
+			children = (
+				BA0557811E5A85CC00A17DC0 /* AppDelegate.h */,
+				BA0557821E5A85CC00A17DC0 /* AppDelegate.m */,
+				BA0557841E5A85CC00A17DC0 /* ViewController.h */,
+				BA0557851E5A85CC00A17DC0 /* ViewController.m */,
+				BA0557871E5A85CC00A17DC0 /* Main.storyboard */,
+				BA788F981E5EDC3200277B98 /* KakaoViewController.h */,
+				BA788F991E5EDC3200277B98 /* KakaoViewController.m */,
+				BA788F9A1E5EDC3200277B98 /* KakaoViewController.xib */,
+				BA05578A1E5A85CC00A17DC0 /* Assets.xcassets */,
+				BA05578C1E5A85CC00A17DC0 /* LaunchScreen.storyboard */,
+				BA008D711E65749700142BE3 /* GoogleService-Info.plist */,
+				BA05578F1E5A85CC00A17DC0 /* Info.plist */,
+				BA008D6A1E65042200142BE3 /* Resource */,
+				BA05577E1E5A85CC00A17DC0 /* Supporting Files */,
+			);
+			path = SNSTest;
+			sourceTree = "<group>";
+		};
+		BA05577E1E5A85CC00A17DC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA05577F1E5A85CC00A17DC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA0557971E5A85CD00A17DC0 /* SNSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0557981E5A85CD00A17DC0 /* SNSTestTests.m */,
+				BA05579A1E5A85CD00A17DC0 /* Info.plist */,
+			);
+			path = SNSTestTests;
+			sourceTree = "<group>";
+		};
+		BA0557A21E5A85CD00A17DC0 /* SNSTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0557A31E5A85CD00A17DC0 /* SNSTestUITests.m */,
+				BA0557A51E5A85CD00A17DC0 /* Info.plist */,
+			);
+			path = SNSTestUITests;
+			sourceTree = "<group>";
+		};
+		BA0557B11E5A870B00A17DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA7D0E41E640B9B00C3B380 /* FBSDKShareKit.framework */,
+				BAA7D0E21E640B9500C3B380 /* FBSDKLoginKit.framework */,
+				BAA7D0E01E640B8F00C3B380 /* FBSDKCoreKit.framework */,
+				BAA7D0DE1E640B8600C3B380 /* Bolts.framework */,
+				BA0557B21E5A874200A17DC0 /* KakaoOpenSDK.framework */,
+				F1817CB758CAF3E77F3FAAF2 /* libPods-SNSTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA05577A1E5A85CC00A17DC0 /* SNSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0557A81E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTest" */;
+			buildPhases = (
+				C1A70E1806B580F356177AB0 /* [CP] Check Pods Manifest.lock */,
+				BA0557771E5A85CC00A17DC0 /* Sources */,
+				BA0557781E5A85CC00A17DC0 /* Frameworks */,
+				BA0557791E5A85CC00A17DC0 /* Resources */,
+				43524DA731A662457A92CD97 /* [CP] Embed Pods Frameworks */,
+				E168D1DD599C4687FB07B120 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSTest;
+			productName = SNSTest;
+			productReference = BA05577B1E5A85CC00A17DC0 /* SNSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0557931E5A85CD00A17DC0 /* SNSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0557AB1E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTestTests" */;
+			buildPhases = (
+				BA0557901E5A85CD00A17DC0 /* Sources */,
+				BA0557911E5A85CD00A17DC0 /* Frameworks */,
+				BA0557921E5A85CD00A17DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0557961E5A85CD00A17DC0 /* PBXTargetDependency */,
+			);
+			name = SNSTestTests;
+			productName = SNSTestTests;
+			productReference = BA0557941E5A85CD00A17DC0 /* SNSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA05579E1E5A85CD00A17DC0 /* SNSTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0557AE1E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTestUITests" */;
+			buildPhases = (
+				BA05579B1E5A85CD00A17DC0 /* Sources */,
+				BA05579C1E5A85CD00A17DC0 /* Frameworks */,
+				BA05579D1E5A85CD00A17DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0557A11E5A85CD00A17DC0 /* PBXTargetDependency */,
+			);
+			name = SNSTestUITests;
+			productName = SNSTestUITests;
+			productReference = BA05579F1E5A85CD00A17DC0 /* SNSTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0557731E5A85CC00A17DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SDTeam;
+				TargetAttributes = {
+					BA05577A1E5A85CC00A17DC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M4C5C72YG;
+						ProvisioningStyle = Automatic;
+					};
+					BA0557931E5A85CD00A17DC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M4C5C72YG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA05577A1E5A85CC00A17DC0;
+					};
+					BA05579E1E5A85CD00A17DC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6M4C5C72YG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA05577A1E5A85CC00A17DC0;
+					};
+				};
+			};
+			buildConfigurationList = BA0557761E5A85CC00A17DC0 /* Build configuration list for PBXProject "SNSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0557721E5A85CC00A17DC0;
+			productRefGroup = BA05577C1E5A85CC00A17DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA05577A1E5A85CC00A17DC0 /* SNSTest */,
+				BA0557931E5A85CD00A17DC0 /* SNSTestTests */,
+				BA05579E1E5A85CD00A17DC0 /* SNSTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0557791E5A85CC00A17DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA05578E1E5A85CC00A17DC0 /* LaunchScreen.storyboard in Resources */,
+				BA008D6C1E65042200142BE3 /* NaverAuth.bundle in Resources */,
+				BA05578B1E5A85CC00A17DC0 /* Assets.xcassets in Resources */,
+				BA788F9C1E5EDC3200277B98 /* KakaoViewController.xib in Resources */,
+				BA0557891E5A85CC00A17DC0 /* Main.storyboard in Resources */,
+				BA008D721E65749700142BE3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0557921E5A85CD00A17DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05579D1E5A85CD00A17DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43524DA731A662457A92CD97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSTest/Pods-SNSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A70E1806B580F356177AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E168D1DD599C4687FB07B120 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSTest/Pods-SNSTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0557771E5A85CC00A17DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0557861E5A85CC00A17DC0 /* ViewController.m in Sources */,
+				BA0557831E5A85CC00A17DC0 /* AppDelegate.m in Sources */,
+				BA788F9B1E5EDC3200277B98 /* KakaoViewController.m in Sources */,
+				BA008D691E65041900142BE3 /* NLoginThirdPartyOAuth20InAppBrowserViewController.m in Sources */,
+				BA0557801E5A85CC00A17DC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0557901E5A85CD00A17DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0557991E5A85CD00A17DC0 /* SNSTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA05579B1E5A85CD00A17DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0557A41E5A85CD00A17DC0 /* SNSTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0557961E5A85CD00A17DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA05577A1E5A85CC00A17DC0 /* SNSTest */;
+			targetProxy = BA0557951E5A85CD00A17DC0 /* PBXContainerItemProxy */;
+		};
+		BA0557A11E5A85CD00A17DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA05577A1E5A85CC00A17DC0 /* SNSTest */;
+			targetProxy = BA0557A01E5A85CD00A17DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA0557871E5A85CC00A17DC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0557881E5A85CC00A17DC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA05578C1E5A85CC00A17DC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA05578D1E5A85CC00A17DC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0557A61E5A85CD00A17DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/cmpark/Documents/SNS/FacebookSDKs-iOS-4.19.0";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0557A71E5A85CD00A17DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/cmpark/Documents/SNS/FacebookSDKs-iOS-4.19.0";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0557A91E5A85CD00A17DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFC5307ADF10AF778A1D68D /* Pods-SNSTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"$(SRCROOT)/KakaoOpenSDK.framework\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /Users/cmpark/Documents/SNS/SNSTest/;
+				INFOPLIST_FILE = SNSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NaverThirdPartyModule",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA0557AA1E5A85CD00A17DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0ECB11A120833335930CB71 /* Pods-SNSTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"$(SRCROOT)/KakaoOpenSDK.framework\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /Users/cmpark/Documents/SNS/SNSTest/;
+				INFOPLIST_FILE = SNSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NaverThirdPartyModule",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA0557AC1E5A85CD00A17DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				INFOPLIST_FILE = SNSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSTest.app/SNSTest";
+			};
+			name = Debug;
+		};
+		BA0557AD1E5A85CD00A17DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				INFOPLIST_FILE = SNSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSTest.app/SNSTest";
+			};
+			name = Release;
+		};
+		BA0557AF1E5A85CD00A17DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				INFOPLIST_FILE = SNSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNSTest;
+			};
+			name = Debug;
+		};
+		BA0557B01E5A85CD00A17DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6M4C5C72YG;
+				INFOPLIST_FILE = SNSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.thinkware.SNSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNSTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0557761E5A85CC00A17DC0 /* Build configuration list for PBXProject "SNSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0557A61E5A85CD00A17DC0 /* Debug */,
+				BA0557A71E5A85CD00A17DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0557A81E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0557A91E5A85CD00A17DC0 /* Debug */,
+				BA0557AA1E5A85CD00A17DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0557AB1E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0557AC1E5A85CD00A17DC0 /* Debug */,
+				BA0557AD1E5A85CD00A17DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0557AE1E5A85CD00A17DC0 /* Build configuration list for PBXNativeTarget "SNSTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0557AF1E5A85CD00A17DC0 /* Debug */,
+				BA0557B01E5A85CD00A17DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0557731E5A85CC00A17DC0 /* Project object */;
+}
